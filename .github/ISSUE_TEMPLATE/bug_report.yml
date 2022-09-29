@@ -62,3 +62,5 @@ body:
        - 5
        - 🤖 bot de test 'officiel' (alpha ou bêta)
        - ⚫ Autre (instance personelle) (merci de préciser dans la description du bug)
+    validations:
+      required: true
