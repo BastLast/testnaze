@@ -48,3 +48,15 @@ body:
       description: Envoyez ici toutes les captures d'écran qui vous semblent pertinentes  
     validations:
       required: true
+  - type: dropdown
+    id: shard
+    attributes:
+      label: Selon vous, quelle est l'importance de ce bug ?
+      description: Dites nous si le bug rencontré impact beaucoup ou peu votre expérience de jeu
+      multiple: false
+      options:
+       - 1
+       - 2
+       - 3
+       - 4
+       - 5
