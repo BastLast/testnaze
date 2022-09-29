@@ -16,7 +16,8 @@ body:
     id: bug-description
     attributes:
       label: Description du bug.
-      description: Décrivez le soucis que vous avez rencontré. en quelques phrases  
+      description: Décrivez le soucis que vous avez rencontré. en quelques phrases.
+      placeholder: Donnez nous un maximum d'information. A quel heure avez vous eu le bug ? Quelle était la situation de votre personnage en jeu ? Essayez de réfléchir à toutes les informations qui pourraient nous être utiles.
     validations:
       required: true
   - type: dropdown
@@ -38,7 +39,7 @@ body:
     attributes:
       label: Reproduction du bug.
       description: Décrivez toutes les étapes à suivre pour reproduire le bug.
-      placeholder: Décrivez les étapes sous forme de liste. Écrivez cette liste comme si il s'agissait d'un mode d'emploi pour refaire le bug à tous les coups. Si vous ne savez pas, donnez nous la liste des dernières commandes que vous avez effectuées (vous pouvez inclure l'heure à laquelle vous avez fait les commandes pour simplifier notre recherche)
+      placeholder: Décrivez les étapes sous forme de liste. Écrivez cette liste comme si il s'agissait d'un mode d'emploi pour refaire le bug à tous les coups.
     validations:
       required: true
   - type: textarea
